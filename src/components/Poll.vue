@@ -67,7 +67,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, watch } from 'vue';
+import { ref, computed, watch, defineProps } from 'vue';
 import confetti from 'canvas-confetti';
 import { ArrowRightCircleIcon, TrophyIcon, CheckCircleIcon, BarChartIcon } from 'lucide-vue-next';
 import gsap from 'gsap';
