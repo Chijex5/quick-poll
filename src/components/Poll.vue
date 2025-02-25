@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div class="poll-container">
     <div class="poll-header">
@@ -69,6 +70,7 @@
 import { ref, computed, watch } from 'vue';
 import confetti from 'canvas-confetti';
 import { ArrowRightCircleIcon, TrophyIcon, CheckCircleIcon, BarChartIcon } from 'lucide-vue-next';
+import gsap from 'gsap';
 
 const props = defineProps({
   question: {
